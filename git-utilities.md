@@ -69,6 +69,9 @@ This is a quick reference for some of the most commonly used Git commands.
 *   `git push <remote_name> <branch_name>`
     *   Uploads local branch commits to the remote repository.
     *   Example: `git push origin new-feature`
+*   `git push -u <remote_name> <branch_name>` or `git push --set-upstream <remote_name> <branch_name>`
+    *   Pushes the current branch and sets up tracking for future pulls/pushes.
+    *   Example: `git push -u origin feature-branch`
 *   `git push <remote_name> --delete <branch_name>` or `git push <remote_name> :<branch_name>`
     *   Deletes a remote branch.
     *   Example: `git push origin --delete old-feature`
