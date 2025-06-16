@@ -8,7 +8,8 @@ This is a quick reference for some of the most commonly used Git commands.
     *   Initializes a new Git repository in the current directory.
 *   `git clone <repository_url>`
     *   Creates a local copy of a remote repository.
-    *   Example: `git clone https://github.com/user/repo.git`
+    *   Example: `git clone git@github.com:manughuman/tips.git`
+    *   or `git clone https://github.com/user/repo.git`
 
 ## 🔄 Daily Workflow: Staging & Committing
 
